@@ -1,0 +1,30 @@
+{
+  "name": "react-native-switch-component",
+  "version": "1.19.0",
+  "description": "A customizable switch component for React Native",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-native": "^0.72.8",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "react-native-reanimated": "^3.16.6"
+  },
+  "keywords": [
+    "react-native",
+    "switch",
+    "component",
+    "customizable",
+    "UI",
+    "react-native-component",
+    "ios",
+    "android"
+  ]
+}
