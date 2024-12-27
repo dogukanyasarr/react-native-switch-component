@@ -13,7 +13,9 @@ const Switch = (
         dumping = 20,
         startPosition = 0,
         endPosition = 20,
-        style
+        style,
+        styleBoxContainer,
+        styleBox
     }: SwitchComponentType) => {
 
     const [active, setActive] = useState<boolean>(false);
@@ -62,8 +64,8 @@ const Switch = (
     }
     return (
         <Pressable style={style} onPress={() => { startAnimation() }}>
-            <Animated.View style={[styles.boxContainer, animatedBackgroundStyle]}>
-                <Animated.View style={[styles.box, animatedIconStyle]} />
+            <Animated.View style={[styles.boxContainer, styleBoxContainer, animatedBackgroundStyle]}>
+                <Animated.View style={[styles.box, styleBox, animatedIconStyle]} />
             </Animated.View>
         </Pressable>
     )

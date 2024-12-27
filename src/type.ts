@@ -44,4 +44,8 @@ export type SwitchComponentType = {
     endPosition?: number;
 
     style?: StyleProp<ViewStyle>
+
+    styleBoxContainer?: StyleProp<ViewStyle>
+
+    styleBox?: StyleProp<ViewStyle>
 }
