@@ -1,10 +1,18 @@
 # Switch Component
 The `Switch` component is compatible with both `iOS` and `Android`. The steps to include it in your React Native project are outlined below.
-# UI and Using
+## Dependencies
+
+To use the `Switch` component, you need to install the following dependencies:
+
+- `react-native-reanimated`: For animations and transitions in the Switch.
+- `react-native`: The core library for building your React Native app.
+
+You can install these dependencies using `npm` or `yarn`.
+## UI and Using
 
 [![Switch Component Video](https://img.youtube.com/vi/D6Ymf1si4J4/0.jpg)](https://www.youtube.com/shorts/D6Ymf1si4J4)
 
-# Get Started
+## Get Started
 
 Follow these steps to include the `Switch` component in your project:
 
