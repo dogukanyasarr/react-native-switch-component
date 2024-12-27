@@ -64,18 +64,18 @@ This Switch component allows for extensive customization, including the ability 
 
 ### Props
 
-| Property               | Type                          | Default Value | Description                                                                 |
-|------------------------|-------------------------------|---------------|-----------------------------------------------------------------------------|
-| `activeIconColor`       | `string`                      | `white`       | Defines the color of the icon when the Switch is active.                    |
-| `activeBgColor`         | `string`                      | `#02D95A`     | Defines the background color when the Switch is active.                     |
-| `passiveIconColor`      | `string`                      | `white`       | Defines the color of the icon when the Switch is passive.                   |
-| `passiveBgColor`        | `string`                      | `lightgray`   | Defines the background color when the Switch is passive.                    |
-| `dumping`               | `number`                      | `20`          | Controls the speed (slowing down) of the animation.                          |
-| `startPosition`         | `number`                      | `0`           | Defines the starting position of the Switch's movement.                     |
-| `endPosition`           | `number`                      | `20`          | Defines the ending position of the Switch's movement.                       |
-| `style`                 | `StyleProp<ViewStyle>`        | `undefined`   | Allows customization of the Switch component's overall style.               |
-| `styleBoxContainer`     | `StyleProp<ViewStyle>`        | `undefined`   | Enables customization of the container's style surrounding the Switch.      |
-| `styleBox`              | `StyleProp<ViewStyle>`        | `undefined`   | Allows you to style the inner box or the toggle itself within the Switch.   |
+| Property               | Type                          | Default    | Description                                                                 | 
+|------------------------|-------------------------------|------------|-----------------------------------------------------------------------------|
+| `activeIconColor`       | `string`                      | `white`    | Defines the color of the icon when the Switch is active.                    |
+| `activeBgColor`         | `string`                      | `#02D95A`  | Defines the background color when the Switch is active.                     |
+| `passiveIconColor`      | `string`                      | `white`    | Defines the color of the icon when the Switch is passive.                   |
+| `passiveBgColor`        | `string`                      | `lightgray`| Defines the background color when the Switch is passive.                    |
+| `dumping`               | `number`                      | `20`       | Controls the speed (slowing down) of the animation.                          |
+| `startPosition`         | `number`                      | `0`        | Defines the starting position of the Switch's movement.                     |
+| `endPosition`           | `number`                      | `20`       | Defines the ending position of the Switch's movement.                       |
+| `style`                 | `StyleProp<ViewStyle>`        | `undefined`| Allows customization of the Switch component's overall style.               |
+| `styleBoxContainer`     | `StyleProp<ViewStyle>`        | `undefined`| Enables customization of the container's style surrounding the Switch.      |
+| `styleBox`              | `StyleProp<ViewStyle>`        | `undefined`| Allows you to style the inner box or the toggle itself within the Switch.   |
 
 ### Customization
 

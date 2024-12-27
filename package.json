@@ -1,7 +1,12 @@
 {
   "name": "react-native-switch-component",
-  "version": "1.19.0",
+  "version": "1.22.0",
   "description": "A customizable switch component for React Native",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dogukanyasarr/react-native-switch-component"
+  },
+  "homepage": "https://github.com/dogukanyasarr",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,12 +15,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^18.3.18",
-    "@types/react-native": "^0.72.8",
-    "typescript": "^5.7.2"
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "typescript": "*"
   },
   "dependencies": {
-    "react-native-reanimated": "^3.16.6"
+    "react-native-reanimated": "*"
   },
   "keywords": [
     "react-native",
@@ -27,4 +32,5 @@
     "ios",
     "android"
   ]
+  
 }
